@@ -900,14 +900,11 @@ color: #f0f0f0;
 .navbar-toggler-icon {
   color: #7a4607; /* Change to desired color */
 }
-.certificate-description {
-  display: none; /* Initially hide the description */
-  position: absolute;
-  background-color: rgba(167, 196, 215, 0.8); /* Semi-transparent white background */
-  padding: 10px;
-  border-radius: 5px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Shadow effect */
- 
+@media only screen and (max-width: 600px) {
+      .contentimage {
+        max-width: 100%; /* Adjust to fill the screen width */
+        padding: 0 10px;
+}
 }
 
 
