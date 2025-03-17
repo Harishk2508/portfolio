@@ -273,22 +273,22 @@ button{
 }
 
 .progress-line .html::after {
-  content: "50%";
-}
-.progress-line .css::after {
-  content: "50%";
-}
-.progress-line .bootstrap::after {
-  content: "50%";
-}
-.progress-line .javascript::after {
-  content: "50%";
-}
-.progress-line .c::after {
   content: "80%";
 }
+.progress-line .css::after {
+  content: "75%";
+}
+.progress-line .bootstrap::after {
+  content: "75%";
+}
+.progress-line .javascript::after {
+  content: "80%";
+}
+.progress-line .c::after {
+  content: "70%";
+}
 .progress-line .python::after {
-  content: "85%"
+  content: "95%"
 }
 .navbar.solid {
   background-color: #07374a;
