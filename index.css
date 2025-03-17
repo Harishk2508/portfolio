@@ -227,22 +227,22 @@ button{
 }
 
 .progress-line .html {
-  width: 50%;
+  width: 95%;
 }
 .progress-line .css {
-  width: 50%;
+  width: 80%;
 }
 .progress-line .bootstrap {
-  width: 50%;
+  width: 75%;
 }
 .progress-line .javascript {
-  width: 50%;
+  width: 75%;
 }
 .progress-line .c {
   width: 80%;
 }
 .progress-line .python {
-  width: 85%;
+  width: 75%;
 }
 
 .bar .progress-line span::before {
