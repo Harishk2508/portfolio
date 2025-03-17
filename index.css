@@ -273,22 +273,22 @@ button{
 }
 
 .progress-line .html::after {
-  content: "80%";
+  content: "95%";
 }
 .progress-line .css::after {
-  content: "75%";
+  content: "80%";
 }
 .progress-line .bootstrap::after {
   content: "75%";
 }
 .progress-line .javascript::after {
-  content: "80%";
+  content: "75%";
 }
 .progress-line .c::after {
-  content: "70%";
+  content: "80%";
 }
 .progress-line .python::after {
-  content: "95%"
+  content: "75%"
 }
 .navbar.solid {
   background-color: #07374a;
