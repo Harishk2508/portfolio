@@ -120,15 +120,28 @@ header {
 }
 
 .contentimage img {
-  width: min-content;
-  height:fit-content;
-  border-radius: 75%;
-  overflow: hidden;
-  object-fit: cover;
- 
-
- 
+  width: 100%;  /* Makes the image scale with the container */
+  max-width: 200px; /* Ensures it doesn’t become too large */
+  height: auto; /* Maintains aspect ratio */
+  border-radius: 50%; /* Ensures a perfect circle */
+  object-fit: cover; /* Crops the image properly */
+  display: block; /* Removes any unwanted spacing */
+  margin: 0 auto; /* Centers the image */
 }
+
+/* Responsive Behavior */
+@media (max-width: 768px) { 
+  .contentimage img {
+    max-width: 150px; /* Smaller profile image on mobile */
+  }
+}
+
+@media (max-width: 480px) { 
+  .contentimage img {
+    max-width: 120px; /* Even smaller for very small screens */
+  }
+}
+
 
 .about-content p {
   font-size: 1.2rem;
