@@ -21,7 +21,6 @@ A web application for booking and managing bus seats, built with Django and Boot
 [GitHub Repo](https://github.com/Harishk2508/Bus-Reservation-System-Django)
 
 ### ⚙️ Algorithmic Problem-Solving  
-Includes optimized solutions for classic challenges like longest subarray sum = K, BFS/DFS traversal, and more.  
 Check out my [LeetCode](https://leetcode.com/u/harishk2514/) progress!
 
 ## 📊 Skills
@@ -43,3 +42,4 @@ Check out my [LeetCode](https://leetcode.com/u/harishk2514/) progress!
 ---
 
 Thanks for visiting! Always curious, always learning—if you’d like to collaborate, feel free to connect. 😊
+
